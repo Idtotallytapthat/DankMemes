@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<head>
+<title> dank memes </title>
+</head>
+<body>
+<section>
+<p id="hitler">D A N K   M E M E S </p>
+
+</section>
+
+<script>
+var j = 4
+var i = 1;
+document.getElementById("hitler").style.font =  "bold 150px arial, serif ";
+
+setInterval(function(){ sColor() }, 70);
+setInterval(function(){ setColor() }, 70);
+
+
+function sColor() {
+	switch (j){
+		case 1:
+			document.body.style.backgroundColor = "red";
+			break;
+		case 2:
+			document.body.style.backgroundColor = "blue";
+			break;
+		case 3:
+			document.body.style.backgroundColor = "green";
+			break;
+		case 4:
+			document.body.style.backgroundColor = "blue";
+			break;
+		case 5:
+			document.body.style.backgroundColor = "red";
+		case 6:
+			document.body.style.backgroundColor = "orange";
+			break;
+		case 7:
+			document.body.style.backgroundColor = "green";
+			j = 0;
+			break;
+	}
+	j++;
+}
+
+function setColor() {
+	switch (i){
+		case 1:
+			document.getElementById("hitler").style.color = "red";
+			break;
+		case 2:
+			document.getElementById("hitler").style.color = "blue";
+			break;
+		case 3:
+			document.getElementById("hitler").style.color = "green";
+			break;
+		case 4:
+			document.getElementById("hitler").style.color = "blue";
+			break;
+		case 5:
+			document.getElementById("hitler").style.color = "red";
+		case 6:
+			document.getElementById("hitler").style.color = "orange";
+			break;
+		case 7:
+			document.getElementById("hitler").style.color = "green";
+			i = 0;
+			break;
+	}
+	i++;
+}
+
+
+</script>
+<center>
+<image src = "meme.gif" width = "900" height = "900">
+</center>
+<embed src="memer.mp3" width="1000" height="100" autoplay= 0 hidden="true" loop="true" volume="100"></embed>
+</body>
+<style> 
+	p {
+	
+    margin: 0px;
+    width: 1350px;
+    height: 200px;
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 4000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-duration: 4000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: 4000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@-ms-keyframes spin {
+    from { -ms-transform: rotate(0deg); }
+    to { -ms-transform: rotate(360deg); }
+}
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+section{
+		position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) 
+        }
+</style>
+</html>
